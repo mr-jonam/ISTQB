@@ -1,0 +1,84 @@
+site_name: Quality Engineering Learning Hub
+site_description: Preparazione ISTQB e pratica di Quality Engineering in italiano
+copyright: Progetto indipendente, non affiliato a ISTQB
+use_directory_urls: true
+
+theme:
+  name: material
+  language: it
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Passa al tema scuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Passa al tema chiaro
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search:
+      lang: it
+
+nav:
+  - Home: index.md
+  - Percorsi:
+      - Scegli il percorso: percorsi/index.md
+      - Foundation CTFL:
+          - Panoramica: percorsi/foundation/index.md
+          - Piano di 6 settimane: percorsi/foundation/piano.md
+          - Tips e tecniche: percorsi/foundation/tips.md
+          - Domande originali: percorsi/foundation/domande.md
+          - Esercizi: percorsi/foundation/esercizi.md
+      - Advanced: percorsi/advanced/index.md
+      - Agile e Specialist: percorsi/agile-specialist/index.md
+      - Expert: percorsi/expert/index.md
+  - Sul campo:
+      - Laboratori: sul-campo/index.md
+      - Risk-based testing: sul-campo/risk-based-testing.md
+      - Strategia e metriche: sul-campo/strategia-metriche.md
+      - Case study verificabili: sul-campo/case-study.md
+  - Toolbox:
+      - Strumenti e template: toolbox/index.md
+      - Metodo di studio: toolbox/metodo-studio.md
+      - Retrospettiva competenze: toolbox/retrospettiva.md
+      - Template:
+          - Test charter: assets/templates/test-charter.md
+          - Defect report: assets/templates/defect-report.md
+          - Risk register: assets/templates/risk-register.md
+          - Test strategy: assets/templates/test-strategy.md
+          - Learning log: assets/templates/learning-log.md
+  - Fonti ufficiali: fonti-ufficiali.md
+  - Il progetto:
+      - Affidabilita: chi-siamo/affidabilita.md
+      - Per clienti e team: chi-siamo/collaborare.md
+      - Contribuire: chi-siamo/contribuire.md

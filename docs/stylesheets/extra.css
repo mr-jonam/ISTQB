@@ -1,0 +1,45 @@
+:root {
+  --qe-ink: #15213b;
+  --qe-teal: #007f78;
+  --qe-mint: #dff7f2;
+}
+
+[data-md-color-scheme="default"] .md-header,
+[data-md-color-scheme="default"] .md-tabs {
+  background: var(--qe-ink);
+}
+
+.qe-hero {
+  padding: 2.8rem 2.4rem;
+  border-radius: 1rem;
+  color: white;
+  background: linear-gradient(135deg, var(--qe-ink) 0%, #263f73 58%, var(--qe-teal) 100%);
+  box-shadow: 0 1rem 2.4rem rgba(21, 33, 59, 0.2);
+}
+
+.qe-hero h1 { color: white; margin-top: 0; }
+.qe-hero p { max-width: 48rem; font-size: 1.05rem; }
+.qe-kicker { text-transform: uppercase; letter-spacing: .12em; font-size: .72rem; font-weight: 700; }
+
+.qe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.qe-card {
+  padding: 1.15rem;
+  border: 1px solid rgba(127, 127, 127, .24);
+  border-radius: .75rem;
+  background: rgba(127, 127, 127, .04);
+}
+
+.qe-card h3 { margin-top: 0; }
+.qe-card p { margin-bottom: 0; }
+.qe-evidence { border-left: .25rem solid var(--qe-teal); padding-left: 1rem; }
+
+@media (max-width: 600px) {
+  .qe-hero { padding: 1.8rem 1.25rem; }
+}
+
