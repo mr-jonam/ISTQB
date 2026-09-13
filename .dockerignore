@@ -1,0 +1,15 @@
+.git
+.github
+
+.venv
+.uv-cache
+site
+*.pdf
+*.png
+ISTQB.txt
+Prep.txt
+docs/.obsidian/workspace.json
+docs/.obsidian/workspace-mobile.json
+docs/.trash
+__pycache__
+*.pyc

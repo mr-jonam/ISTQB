@@ -1,7 +1,17 @@
 site/
 .venv/
 .uv-cache/
+
 __pycache__/
 .idea/
 .vscode/
 .DS_Store
+docs/.obsidian/workspace.json
+docs/.obsidian/workspace-mobile.json
+docs/.trash/
+
+# Materiale locale o scaricato: nel repository pubblichiamo solo link ufficiali.
+/*.pdf
+/*.png
+/ISTQB.txt
+/Prep.txt

@@ -1,0 +1,17 @@
+:root {
+  --quality-accent: #2d6a58;
+}
+
+.markdown-rendered h1,
+.markdown-rendered h2 {
+  letter-spacing: -0.025em;
+}
+
+.markdown-rendered blockquote {
+  border-inline-start-color: var(--quality-accent);
+}
+
+.tag[href="#sul-campo"],
+.tag[href="#portfolio"] {
+  background: color-mix(in srgb, var(--quality-accent) 18%, transparent);
+}

@@ -1,0 +1,15 @@
+{
+  "backlink": true,
+  "bookmarks": true,
+  "command-palette": true,
+  "file-explorer": true,
+  "global-search": true,
+  "graph": true,
+  "note-composer": true,
+  "outline": true,
+  "page-preview": true,
+  "properties": true,
+  "quick-switcher": true,
+  "tag-pane": true,
+  "templates": true
+}

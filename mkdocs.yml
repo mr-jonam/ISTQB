@@ -1,11 +1,14 @@
 site_name: Quality Engineering Learning Hub
 site_description: Preparazione ISTQB e pratica di Quality Engineering in italiano
+site_url: https://mr-jonam.github.io/ISTQB/
+repo_url: https://github.com/mr-jonam/ISTQB
 copyright: Progetto indipendente, non affiliato a ISTQB
 use_directory_urls: true
 
 theme:
   name: material
   language: it
+  font: false
   features:
     - navigation.tabs
     - navigation.sections
@@ -17,21 +20,24 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: teal
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: Passa al tema scuro
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: teal
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Passa al tema chiaro
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/catalogo.js
 
 markdown_extensions:
   - admonition
@@ -51,6 +57,42 @@ plugins:
 
 nav:
   - Home: index.md
+  - Start Obsidian: 00-Start-Here.md
+  - Certificazioni:
+      - Catalogo completo: certificazioni/index.md
+      - Core:
+          - CTFL Foundation v4.0: certificazioni/core/ctfl.md
+          - CTAL Agile Tester v2.0: certificazioni/core/ctal-at.md
+          - CTAL Test Analyst v4.0: certificazioni/core/ctal-ta.md
+          - CTAL Test Automation Engineering v2.0: certificazioni/core/ctal-tae.md
+          - CTAL Test Management v3.0: certificazioni/core/ctal-tm.md
+          - CTAL Technical Test Analyst: certificazioni/core/ctal-tta.md
+      - Specialist - Tecnologie e approcci:
+          - CT-AI AI Testing v2.0: certificazioni/specialist/tecnologie/ct-ai.md
+          - CT-QDO Quality in DevOps: certificazioni/specialist/tecnologie/ct-qdo.md
+          - CT-GenAI Testing with Generative AI: certificazioni/specialist/tecnologie/ct-genai.md
+          - CT-MAT Mobile Application Testing: certificazioni/specialist/tecnologie/ct-mat.md
+          - CT-MBT Model-Based Testing: certificazioni/specialist/tecnologie/ct-mbt.md
+          - CT-TAS Test Automation Strategy: certificazioni/specialist/tecnologie/ct-tas.md
+          - CT-ATLaS Agile Test Leadership at Scale: certificazioni/specialist/tecnologie/ct-atlas.md
+      - Specialist - Qualita e livelli:
+          - CT-AcT Acceptance Testing: certificazioni/specialist/qualita/ct-act.md
+          - CT-PT Performance Testing: certificazioni/specialist/qualita/ct-pt.md
+          - CT-SEC Security Tester: certificazioni/specialist/qualita/ct-sec.md
+          - CT-STE Security Test Engineer: certificazioni/specialist/qualita/ct-ste.md
+          - CT-UT Usability Testing: certificazioni/specialist/qualita/ct-ut.md
+      - Specialist - Domini:
+          - CT-FT Finance Testing: certificazioni/specialist/domini/ct-ft.md
+          - CT-AuT Automotive Software Tester: certificazioni/specialist/domini/ct-aut.md
+          - CT-GaMe Game Testing: certificazioni/specialist/domini/ct-game.md
+          - CT-GT Gambling Industry Tester: certificazioni/specialist/domini/ct-gt.md
+      - Expert:
+          - CTEL-ITP Assessing Test Processes: certificazioni/expert/ctel-itp-atp.md
+          - CTEL-ITP Implementing Test Process Improvement: certificazioni/expert/ctel-itp-itpi.md
+          - CTEL-TM Strategic Test Management: certificazioni/expert/ctel-tm-sm.md
+          - CTEL-TM Operational Test Management: certificazioni/expert/ctel-tm-otm.md
+          - CTEL-TM Managing the Test Team: certificazioni/expert/ctel-tm-mtt.md
+      - Versioni in phase-out: certificazioni/versioni-in-uscita.md
   - Percorsi:
       - Scegli il percorso: percorsi/index.md
       - Foundation CTFL:
