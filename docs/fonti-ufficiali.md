@@ -1,6 +1,6 @@
 # Fonti ufficiali e versioni
 
-Ultima verifica del catalogo: **13 settembre 2026**. Controlla nuovamente prima di pianificare studio o acquisto dell'esame.
+Ultima verifica del catalogo: **14 settembre 2026**. Controlla nuovamente prima di pianificare studio o acquisto dell'esame.
 
 | Risorsa | Uso | Fonte |
 |---|---|---|
@@ -14,7 +14,9 @@ Ultima verifica del catalogo: **13 settembre 2026**. Controlla nuovamente prima 
 | Expert ITP | struttura in due parti e materiali | [Assessing Test Processes](https://www.istqb.org/certifications/certified-tester-expert-level-assessing-test-processes-ctel-itp-atp/) |
 | Glossario | definizioni ufficiali e traduzioni | [ISTQB Glossary](https://glossary.istqb.org/) |
 
-Per tutte le pagine ufficiali dei 28 moduli attivi usa il [catalogo interno](certificazioni/index.md): ogni scheda mantiene un solo collegamento stabile alla certificazione, da cui scaricare syllabus, sample exam, risposte e regole correnti.
+Per tutte le pagine ufficiali dei 27 moduli attivi usa il [catalogo interno](certificazioni/index.md): ogni scheda mantiene un solo collegamento stabile alla certificazione, da cui scaricare syllabus, sample exam, risposte e regole correnti.
+
+Foundation Level Agile Tester (CTFL-AT) e Agile Technical Tester (CT-ATT) sono percorsi in phase-out: gli esami inglesi terminano il 6 maggio 2027 e quelli nelle altre lingue il 6 novembre 2027. Per il percorso Agile corrente usa CTAL-AT v2.0.
 
 ## Politica del repository
 

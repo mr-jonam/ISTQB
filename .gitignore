@@ -1,7 +1,6 @@
 site/
 .venv/
 .uv-cache/
-
 __pycache__/
 .idea/
 .vscode/

@@ -1,3 +1,9 @@
+---
+title: Quality Engineering Learning Hub
+lang: it
+last_verified: 2026-09-14
+---
+
 <div class="qe-hero" markdown>
 <div class="qe-kicker">Studia · Applica · Dimostra</div>
 
@@ -5,12 +11,12 @@
 
 Una knowledge base italiana, verificabile e aperta: tutte le certificazioni ISTQB correnti, esercizi originali, laboratori professionali e artefatti pronti da revisionare.
 
-[Esplora le 28 certificazioni](certificazioni/index.md){ .md-button .md-button--primary }
+[Esplora le 27 certificazioni](certificazioni/index.md){ .md-button .md-button--primary }
 [Prova un laboratorio](sul-campo/index.md){ .md-button }
 </div>
 
 <div class="qe-stats" markdown>
-<div><strong>28</strong><span>certificazioni attive</span></div>
+<div><strong>27</strong><span>certificazioni attive</span></div>
 <div><strong>4</strong><span>famiglie di percorso</span></div>
 <div><strong>1</strong><span>sorgente per web e Obsidian</span></div>
 </div>

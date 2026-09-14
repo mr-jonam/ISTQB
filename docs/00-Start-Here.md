@@ -20,6 +20,16 @@ Questa cartella e un vault Obsidian e, nello stesso tempo, la sorgente della web
 - [Fonti ufficiali e versioni](fonti-ufficiali.md)
 - [Criteri di affidabilità](chi-siamo/affidabilita.md)
 
+## Edizioni linguistiche
+
+- [Italiano](guide/certifications.md)
+- <a href="guide/certifications.en.md">English</a>
+- <a href="guide/certifications.fr.md">Français</a>
+- <a href="guide/certifications.de.md">Deutsch</a>
+- <a href="guide/certifications.es.md">Español</a>
+
+Le traduzioni condividono lo stesso vault: i suffissi di lingua mantengono le note portabili in Obsidian e generano sezioni web separate.
+
 ## Metodo consigliato
 
 1. Scegli una certificazione dal catalogo.

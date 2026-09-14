@@ -12,6 +12,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 MARKER = re.compile(r"\b(?:TODO|TBD|FIXME)\b", re.IGNORECASE)
 LINK = re.compile(r"(?<!!)\[[^\]]+\]\(([^)]+)\)")
+LOCALES = ("it", "en", "fr", "de", "es")
+LOCALIZED_SECTIONS = ("certifications", "study", "practice", "toolbox", "sources")
 
 
 def validate_file(path: Path) -> list[str]:
@@ -44,6 +46,17 @@ def main() -> int:
     for markdown_file in markdown_files:
         errors.extend(validate_file(markdown_file))
 
+    for locale in LOCALES:
+        suffix = "" if locale == "it" else f".{locale}"
+        expected = [DOCS / f"index{suffix}.md"]
+        expected.extend(DOCS / "guide" / f"{section}{suffix}.md" for section in LOCALIZED_SECTIONS)
+        for path in expected:
+            if not path.exists():
+                errors.append(f"edizione {locale} incompleta: {path.relative_to(ROOT)}")
+                continue
+            if f"lang: {locale}" not in path.read_text(encoding="utf-8"):
+                errors.append(f"lingua {locale} non dichiarata: {path.relative_to(ROOT)}")
+
     if errors:
         print("Documentazione non valida:")
         print("\n".join(f"- {error}" for error in errors))
@@ -55,4 +68,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-

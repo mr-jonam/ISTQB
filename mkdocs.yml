@@ -53,7 +53,82 @@ markdown_extensions:
 
 plugins:
   - search:
-      lang: it
+      lang:
+        - it
+        - en
+        - fr
+        - de
+        - es
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: it
+          default: true
+          name: Italiano
+          build: true
+        - locale: en
+          name: English
+          build: true
+          site_name: Quality Engineering Learning Hub
+          site_description: ISTQB preparation and practical Quality Engineering in English
+          copyright: Independent project, not affiliated with ISTQB
+          theme:
+            language: en
+          nav:
+            - Home: index.md
+            - Certifications: guide/certifications.md
+            - Study paths: guide/study.md
+            - Practice: guide/practice.md
+            - Toolbox: guide/toolbox.md
+            - Official sources: guide/sources.md
+        - locale: fr
+          name: Français
+          build: true
+          site_name: Centre d'apprentissage Quality Engineering
+          site_description: Préparation ISTQB et Quality Engineering pratique en français
+          copyright: Projet indépendant, non affilié à l'ISTQB
+          theme:
+            language: fr
+          nav:
+            - Accueil: index.md
+            - Certifications: guide/certifications.md
+            - Parcours d'étude: guide/study.md
+            - Mise en pratique: guide/practice.md
+            - Boîte à outils: guide/toolbox.md
+            - Sources officielles: guide/sources.md
+        - locale: de
+          name: Deutsch
+          build: true
+          site_name: Quality Engineering Lernplattform
+          site_description: ISTQB-Vorbereitung und praktische Quality-Engineering-Inhalte auf Deutsch
+          copyright: Unabhängiges Projekt, nicht mit ISTQB verbunden
+          theme:
+            language: de
+          nav:
+            - Startseite: index.md
+            - Zertifizierungen: guide/certifications.md
+            - Lernpfade: guide/study.md
+            - Praxis: guide/practice.md
+            - Werkzeugkasten: guide/toolbox.md
+            - Offizielle Quellen: guide/sources.md
+        - locale: es
+          name: Español
+          build: true
+          site_name: Centro de aprendizaje de Quality Engineering
+          site_description: Preparación ISTQB y Quality Engineering práctico en español
+          copyright: Proyecto independiente, no afiliado a ISTQB
+          theme:
+            language: es
+          nav:
+            - Inicio: index.md
+            - Certificaciones: guide/certifications.md
+            - Rutas de estudio: guide/study.md
+            - Práctica profesional: guide/practice.md
+            - Herramientas: guide/toolbox.md
+            - Fuentes oficiales: guide/sources.md
 
 nav:
   - Home: index.md

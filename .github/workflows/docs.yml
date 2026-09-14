@@ -25,6 +25,7 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - run: python scripts/security_scan.py
       - run: python scripts/validate_docs.py
       - run: mkdocs build --strict
       - uses: actions/configure-pages@v5

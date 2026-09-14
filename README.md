@@ -1,6 +1,6 @@
 # Quality Engineering Learning Hub
 
-Knowledge base italiana per preparare tutte le certificazioni ISTQB correnti e trasformare il syllabus in capacità osservabili sul campo.
+Knowledge base multilingue per preparare tutte le certificazioni ISTQB correnti e trasformare il syllabus in capacità osservabili sul campo.
 
 [![Docs](https://img.shields.io/badge/web-MkDocs-18221F)](mkdocs.yml)
 [![Obsidian](https://img.shields.io/badge/vault-Obsidian-2D6A58)](docs/00-Start-Here.md)
@@ -9,12 +9,14 @@ Knowledge base italiana per preparare tutte le certificazioni ISTQB correnti e t
 
 ## Cosa trovi
 
-- catalogo verificato di 28 certificazioni attive: Core, Specialist ed Expert;
+- catalogo verificato di 27 certificazioni attive: Core, Specialist ed Expert;
 - link a syllabus, sample exam e regole sulle pagine ISTQB ufficiali;
 - tips, domande originali ed esercizi per preparare l'esame;
 - un laboratorio professionale per ogni certificazione, con criteri ed evidenze;
 - template per test strategy, charter, risk register, defect report e learning log;
 - un vault Obsidian e una web app generati dalla stessa sorgente Markdown.
+
+La versione italiana offre una scheda dettagliata per ogni certificazione. Le edizioni inglese, francese, tedesca e spagnola raccolgono il catalogo completo, i percorsi, gli esercizi, i laboratori e gli strumenti essenziali. Sul sito si cambia lingua dal selettore; in Obsidian i file tradotti usano i suffissi `.en.md`, `.fr.md`, `.de.md` e `.es.md`.
 
 Il progetto è indipendente, non affiliato a ISTQB e non è un training provider accreditato. Non contiene domande reali d'esame e non redistribuisce i PDF ufficiali.
 
@@ -56,6 +58,7 @@ py -m mkdocs serve
 Verifica completa:
 
 ```powershell
+py scripts/security_scan.py
 py scripts/validate_docs.py
 py -m mkdocs build --strict
 docker build --tag istqb-learning-hub:local .
@@ -70,6 +73,7 @@ docker build --tag istqb-learning-hub:local .
 | `docs/sul-campo/` | laboratori e case study verificabili |
 | `docs/toolbox/` | metodo di studio e strumenti |
 | `docs/assets/templates/` | template riutilizzabili |
+| `docs/guide/` | edizioni consolidate in cinque lingue |
 | `docs/.obsidian/` | configurazione portabile del vault |
 | `mkdocs.yml` | navigazione e build della web app |
 

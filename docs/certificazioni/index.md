@@ -2,12 +2,12 @@
 title: Catalogo certificazioni ISTQB
 aliases: [Certificazioni ISTQB]
 tags: [indice, certificazioni]
-last_verified: 2026-09-13
+last_verified: 2026-09-14
 ---
 
 # Catalogo delle certificazioni ISTQB
 
-Le 28 certificazioni attive riportate nel catalogo internazionale ISTQB, organizzate per obiettivo professionale. Ogni scheda collega i materiali ufficiali e propone studio, pratica e un'evidenza da portfolio. Versioni e disponibilità sono state verificate il **13 settembre 2026**.
+Le 27 certificazioni attive riportate nel catalogo internazionale ISTQB, organizzate per obiettivo professionale. Ogni scheda collega i materiali ufficiali e propone studio, pratica e un'evidenza da portfolio. Versioni e disponibilità sono state verificate il **14 settembre 2026**.
 
 <label for="cert-search"><strong>Cerca per ruolo, competenza o sigla</strong></label>
 <input id="cert-search" class="cert-search" type="search" placeholder="Esempio: automazione, sicurezza, CTFL" data-cert-search>
