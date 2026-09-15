@@ -1,22 +1,41 @@
-MIT License
+# Creative Commons Attribution-ShareAlike 4.0 International
 
-Copyright (c) 2026 Quality Engineering Learning Hub contributors
+Copyright © 2026 **mr-jonam**. All rights not expressly granted below are reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Unless a file states otherwise, the material in this repository is licensed under the **Creative Commons Attribution-ShareAlike 4.0 International Public License** (CC BY-SA 4.0).
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The complete and controlling legal text is available at:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+<https://creativecommons.org/licenses/by-sa/4.0/legalcode>
 
+The human-readable summary is available at:
+
+<https://creativecommons.org/licenses/by-sa/4.0/>
+
+## Permissions
+
+Subject to the licence conditions, you may copy, distribute, fork, translate, modify and improve this repository, including for commercial purposes.
+
+## Conditions
+
+When sharing this material or an adaptation, you must:
+
+1. retain the copyright notice and this licence notice;
+2. credit the original project as described in [NOTICE.md](NOTICE.md);
+3. link to this repository where reasonably practicable;
+4. state clearly that you made changes and preserve notices of earlier changes; and
+5. license any adapted material under CC BY-SA 4.0 or a licence compatible with it, without adding restrictions that prevent recipients from exercising the same rights.
+
+The project name, the copyright holder's identity and any logos are not licensed as trademarks. They may be used only to provide truthful attribution and must not imply endorsement, sponsorship, affiliation or official status.
+
+## Third-party material
+
+ISTQB names, marks, syllabi, sample exams and other third-party materials remain subject to their respective owners' terms. This licence applies only to original material for which the copyright holder has the right to grant permission; it grants no rights to third-party marks or materials linked from this repository.
+
+## Non-compliance
+
+Under the CC BY-SA 4.0 legal code, the granted rights terminate automatically if its terms are not respected. This does not limit remedies available to the copyright holder under applicable law. The licence contains the applicable warranty and liability terms.
+
+## Earlier releases
+
+This licence governs the current and future versions published from this repository. It cannot retroactively withdraw permissions that may have been granted for copies lawfully received under an earlier licence.

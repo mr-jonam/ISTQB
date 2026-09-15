@@ -5,7 +5,7 @@ Knowledge base multilingue per preparare tutte le certificazioni ISTQB correnti 
 [![Docs](https://img.shields.io/badge/web-MkDocs-18221F)](mkdocs.yml)
 [![Obsidian](https://img.shields.io/badge/vault-Obsidian-2D6A58)](docs/00-Start-Here.md)
 [![Container](https://img.shields.io/badge/runtime-Docker-18221F)](Dockerfile)
-[![License: MIT](https://img.shields.io/badge/license-MIT-2D6A58)](LICENSE)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/license-CC--BY--SA--4.0-2D6A58)](LICENSE)
 
 ## Cosa trovi
 
@@ -19,6 +19,14 @@ Knowledge base multilingue per preparare tutte le certificazioni ISTQB correnti 
 La versione italiana offre una scheda dettagliata per ogni certificazione. Le edizioni inglese, francese, tedesca e spagnola raccolgono il catalogo completo, i percorsi, gli esercizi, i laboratori e gli strumenti essenziali. Sul sito si cambia lingua dal selettore; in Obsidian i file tradotti usano i suffissi `.en.md`, `.fr.md`, `.de.md` e `.es.md`.
 
 Il progetto è indipendente, non affiliato a ISTQB e non è un training provider accreditato. Non contiene domande reali d'esame e non redistribuisce i PDF ufficiali.
+
+## Licenza, attribuzione e fork
+
+Il lavoro originale è protetto da copyright © 2026 **mr-jonam** ed è distribuito con licenza [CC BY-SA 4.0](LICENSE). Puoi fare fork, modificare, tradurre e migliorare il progetto, anche per uso commerciale, a condizione di mantenere l'attribuzione, dichiarare le modifiche e pubblicare le opere derivate con la stessa licenza o una compatibile.
+
+Ogni fork pubblico deve mantenere il collegamento al progetto originale e il notice indicato in [NOTICE.md](NOTICE.md). Il nome del progetto non può essere usato per suggerire approvazione, affiliazione o paternità dell'opera originale. In caso di violazione, i diritti concessi dalla licenza terminano secondo il suo testo legale, fatti salvi gli eventuali rimedi di legge.
+
+La licenza riguarda il materiale originale del repository: marchi e documenti ISTQB restano dei rispettivi titolari e soggetti alle loro condizioni. Le copie ottenute legittimamente da versioni precedenti possono restare soggette alle licenze allora applicabili.
 
 ## Avvio locale con un doppio clic
 
