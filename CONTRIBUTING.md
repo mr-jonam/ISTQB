@@ -11,3 +11,6 @@ Sono benvenuti esercizi, esempi anonimizzati, correzioni e nuovi percorsi.
 
 Una review valuta accuratezza, chiarezza, applicabilita, riservatezza e accessibilita. Per proporre un case study usa il [template dedicato](docs/sul-campo/case-study.md).
 
+## Licenza dei contributi
+
+Inviando un contributo dichiari di avere il diritto di condividerlo e accetti che sia distribuito con la [CC BY-SA 4.0](LICENSE). Non includere materiale di terzi, dati personali, credenziali o contenuti d'esame riservati senza un'autorizzazione esplicita e documentata.
